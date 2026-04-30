@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visor Estereoscópico Anaglifo</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Icono -->
+  <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark bg-black border-bottom border-danger">
+  <div class="container-fluid">
+    <span class="navbar-brand text-danger fw-bold">
+      🔴🔵 Visor Estereoscópico
+    </span>
+  </div>
+</nav>
+
+<div class="container mt-4">
+
+  <h4 class="text-center text-info mb-3">
+    Cambia entre Side by Side y Anaglifo
+  </h4>
+
+  <!-- BOTONES -->
+  <div class="text-center mb-4">
+    <button class="btn btn-primary" onclick="setMode('side')">Side by Side</button>
+    <button class="btn btn-danger" onclick="setMode('anaglyph')">Modo Anaglifo</button>
+  </div>
+
+  <!-- CARRUSEL -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- IMAGEN 1 -->
+      <div class="carousel-item active">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img1_sbs.jpg"
+               data-side="img/img1_sbs.jpg"
+               data-anaglyph="img/img1_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 2 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img2_sbs.jpg"
+               data-side="img/img2_sbs.jpg"
+               data-anaglyph="img/img2_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 3 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img3_sbs.jpg"
+               data-side="img/img3_sbs.jpg"
+               data-anaglyph="img/img3_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 4 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img4_sbs.jpg"
+               data-side="img/img4_sbs.jpg"
+               data-anaglyph="img/img4_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 5 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img5_sbs.jpg"
+               data-side="img/img5_sbs.jpg"
+               data-anaglyph="img/img5_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 6 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img6_sbs.jpg"
+               data-side="img/img6_sbs.jpg"
+               data-anaglyph="img/img6_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 7 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img7_sbs.jpg"
+               data-side="img/img7_sbs.jpg"
+               data-anaglyph="img/img7_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 8 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img8_sbs.jpg"
+               data-side="img/img8_sbs.jpg"
+               data-anaglyph="img/img8_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 9 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img9_sbs.jpg"
+               data-side="img/img9_sbs.jpg"
+               data-anaglyph="img/img9_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 10 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img10_sbs.jpg"
+               data-side="img/img10_sbs.jpg"
+               data-anaglyph="img/img10_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 11 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img11_sbs.jpg"
+               data-side="img/img11_sbs.jpg"
+               data-anaglyph="img/img11_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 12 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img12_sbs.jpg"
+               data-side="img/img12_sbs.jpg"
+               data-anaglyph="img/img12_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 13 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img13_sbs.jpg"
+               data-side="img/img13_sbs.jpg"
+               data-anaglyph="img/img13_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 14 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img14_sbs.jpg"
+               data-side="img/img14_sbs.jpg"
+               data-anaglyph="img/img14_anaglyph.jpg">
+        </div>
+      </div>
+
+      <!-- IMAGEN 15 -->
+      <div class="carousel-item">
+        <div class="text-center">
+          <img class="stereo-img img-fluid"
+               src="img/img15_sbs.jpg"
+               data-side="img/img15_sbs.jpg"
+               data-anaglyph="img/img15_anaglyph.jpg">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CONTROLES -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-black text-white text-center p-3 mt-4 border-top border-danger">
+  Desarrollado por: TU NOMBRE
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
