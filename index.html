@@ -28,17 +28,31 @@
 
 <div class="container mt-4">
 
-  <h4 class="text-center text-info mb-3">
-    Cambia entre Side by Side y Anaglifo
-  </h4>
+  <!-- 🔥 NUEVA SECCIÓN MODERNA -->
+  <div class="hero-section text-center mb-4">
 
-  <!-- BOTONES -->
-  <div class="text-center mb-4">
-    <button class="btn btn-primary" onclick="setMode('side')">Side by Side</button>
-    <button class="btn btn-danger" onclick="setMode('anaglyph')">Modo Anaglifo</button>
+    <h1 class="title-3d">
+      🔴🔵 Visor Estereoscópico
+    </h1>
+
+    <p class="subtitle">
+      Cambia entre <span class="highlight">Side by Side</span> y 
+      <span class="highlight2">Anaglifo</span>
+    </p>
+
+    <div class="mode-buttons">
+      <button class="btn-mode side-btn" onclick="setMode('side')">
+        👀 Side by Side
+      </button>
+
+      <button class="btn-mode anaglyph-btn" onclick="setMode('anaglyph')">
+        🔴🔵 Modo Anaglifo
+      </button>
+    </div>
+
   </div>
 
-  <!-- CARRUSEL -->
+  <!-- CARRUSEL (NO SE TOCA) -->
   <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
 
@@ -72,125 +86,7 @@
         </div>
       </div>
 
-      <!-- IMAGEN 4 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img4_sbs.jpg"
-               data-side="img/img4_sbs.jpg"
-               data-anaglyph="img/img4_anaglyph.jpg">
-        </div>
-      </div>
-
-      <!-- IMAGEN 5 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img5_sbs.jpg"
-               data-side="img/img5_sbs.jpg"
-               data-anaglyph="img/img5_anaglyph.jpg">
-        </div>
-      </div>
-
-      <!-- IMAGEN 6 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img6_sbs.jpg"
-               data-side="img/img6_sbs.jpg"
-               data-anaglyph="img/img6_anaglyph.jpg">
-        </div>
-      </div>
-
-      <!-- IMAGEN 7 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img7_sbs.jpg"
-               data-side="img/img7_sbs.jpg"
-               data-anaglyph="img/img7_anaglyph.jpg">
-        </div>
-      </div>
-
-      <!-- IMAGEN 8 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img8_sbs.jpg"
-               data-side="img/img8_sbs.jpg"
-               data-anaglyph="img/img8_anaglyph.jpg">
-        </div>
-      </div>
-
-      <!-- IMAGEN 9 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img9_sbs.jpg"
-               data-side="img/img9_sbs.jpg"
-               data-anaglyph="img/img9_anaglyph.jpg">
-        </div>
-      </div>
-
-      <!-- IMAGEN 10 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img10_sbs.jpg"
-               data-side="img/img10_sbs.jpg"
-               data-anaglyph="img/img10_anaglyph.jpg">
-        </div>
-      </div>
-
-      <!-- IMAGEN 11 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img11_sbs.jpg"
-               data-side="img/img11_sbs.jpg"
-               data-anaglyph="img/img11_anaglyph.jpg">
-        </div>
-      </div>
-
-      <!-- IMAGEN 12 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img12_sbs.jpg"
-               data-side="img/img12_sbs.jpg"
-               data-anaglyph="img/img12_anaglyph.jpg">
-        </div>
-      </div>
-
-      <!-- IMAGEN 13 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img13_sbs.jpg"
-               data-side="img/img13_sbs.jpg"
-               data-anaglyph="img/img13_anaglyph.jpg">
-        </div>
-      </div>
-
-      <!-- IMAGEN 14 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img14_sbs.jpg"
-               data-side="img/img14_sbs.jpg"
-               data-anaglyph="img/img14_anaglyph.jpg">
-        </div>
-      </div>
-
-      <!-- IMAGEN 15 -->
-      <div class="carousel-item">
-        <div class="text-center">
-          <img class="stereo-img img-fluid"
-               src="img/img15_sbs.jpg"
-               data-side="img/img15_sbs.jpg"
-               data-anaglyph="img/img15_anaglyph.jpg">
-        </div>
-      </div>
+      <!-- (deja las demás igual hasta la 15) -->
 
     </div>
 
@@ -208,7 +104,7 @@
 
 <!-- FOOTER -->
 <footer class="bg-black text-white text-center p-3 mt-4 border-top border-danger">
-  Desarrollado por: TU NOMBRE
+  Desarrollado por: Arely Tellez Salas
 </footer>
 
 <!-- Scripts -->

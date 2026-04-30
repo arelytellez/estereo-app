@@ -8,3 +8,80 @@ img {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(255,0,0,0.5);
 }
+/* CONTENEDOR HERO */
+.hero-section {
+  padding: 30px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #0a0a0a, #111);
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.2);
+}
+
+/* TÍTULO PRINCIPAL */
+.title-3d {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 
+    -2px 0 red,
+    2px 0 cyan;
+}
+
+/* SUBTÍTULO */
+.subtitle {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* TEXTO DESTACADO */
+.highlight {
+  color: #4da6ff;
+  font-weight: bold;
+}
+
+.highlight2 {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+/* BOTONES */
+.mode-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* BOTÓN BASE */
+.btn-mode {
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* BOTÓN SIDE */
+.side-btn {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  color: white;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6);
+}
+
+.side-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 123, 255, 1);
+}
+
+/* BOTÓN ANAGLIFO */
+.anaglyph-btn {
+  background: linear-gradient(45deg, red, cyan);
+  color: white;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}
+
+.anaglyph-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 0, 0, 1);
+}
