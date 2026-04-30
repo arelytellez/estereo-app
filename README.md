@@ -83,10 +83,10 @@ Este proyecto puede ser publicado mediante **GitHub Pages** para su visualizaci�
 
 ## 👨‍💻 Autor
 
-* **Nombre:** TU NOMBRE
-* **Materia:** (Nombre de la materia)
+* **Nombre:** Arely Tellez Salas
+* **Materia:** Desarrollo de soluciones en ambientes virtuales
 * **Tema:** Imágenes Estereoscópicas
-* **Fecha:** (Fecha de entrega)
+* **Fecha:** 29/04/2026
 
 ---
 
